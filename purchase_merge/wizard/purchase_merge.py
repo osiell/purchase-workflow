@@ -170,7 +170,7 @@ class MergePurchaseAutomatic(models.TransientModel):
             po_names=" ,".join(po_name),
         )
 
-        po.message_post(body=body, subject=subject, content_subtype="plaintext")
+        po.message_post(body=body, subject=subject)
 
     def _merge(self, purchases, dst_purchase=None):
         """private implementation of merge purchase

@@ -3,12 +3,12 @@
 {
     "name": "Purchase Merge",
     "summary": "Wizard to merge purchase with required conditions",
-    "version": "16.0.1.0.3",
+    "version": "17.0.1.0.0",
     "author": "Camptocamp, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/purchase-workflow",
     "license": "AGPL-3",
     "category": "Purchase",
-    "depends": ["purchase_order_approved"],
+    "depends": ["purchase"],
     "data": [
         "security/ir.model.access.csv",
         "wizard/purchase_merge_views.xml",
